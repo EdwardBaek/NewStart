@@ -48,6 +48,11 @@ h4 {
   padding-right: 20px;
 }
 
+@media (min-width: 768px) {
+  .col-1-4 {
+    width: 50%;
+  }
+}
 @media (min-width: 992px) {
   .col-1-4 {
     width: 25%;
@@ -60,11 +65,6 @@ h4 {
   }
   .module {
     min-width: 60px;
-  }
-}
-@media (max-width: 991px) {
-  .col-1-4 {
-    width: 50%;
   }
 }
 @media (max-width: 600px) {
