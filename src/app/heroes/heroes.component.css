@@ -72,3 +72,8 @@ button.delete {
   color: white;
 }
 
+button.delete:hover {
+  color: indianred;
+  top: -33px;
+  box-shadow: 1px 1px 1px grey;
+}
