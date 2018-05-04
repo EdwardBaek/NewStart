@@ -18,6 +18,8 @@ import { HeroService }          from './hero.service';
 import { MessageService }       from './message.service';
 import { MessagesComponent }    from './messages/messages.component';
 
+import { SharedModule } from './shared/shared.module'; 
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -25,6 +27,7 @@ import { MessagesComponent }    from './messages/messages.component';
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
+    SharedModule,
 
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
